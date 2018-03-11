@@ -1,0 +1,30 @@
+.image-cut .search .toptext{
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.image-cut .search .toptext p{
+    width: 19.5%;
+    color: rgba(100,100,100,0.8);
+    font-weight: 900;
+    text-decoration: none;
+    border-right: 1px solid rgba(100,100,100,1);
+    cursor: pointer;
+
+}
+
+.image-cut .search .toptext p:last-child{
+    border-right: none;
+}
+
+.image-cut .search .toptext p{
+    margin-bottom: 0px;
+}
+
+.image-cut .search .toptext p.chosenblue{
+    color: #556CFF !important;
+}
+
+.image-cut .search .toptext p.chosenwhite{
+    color: white !important;
+}
