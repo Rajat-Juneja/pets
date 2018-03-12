@@ -51,6 +51,7 @@ function bindEvents(){
     },10);
 
     // SERVICES PAGE
+    
     serbar = document.getElementsByClassName("serbar");
     serbar[0].firstElementChild.childNodes[3].classList.add("chosenblue");
     for(let i=1;i<serbar[0].firstElementChild.childNodes.length;i+=2){

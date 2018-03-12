@@ -154,6 +154,37 @@ min-height: 400px;
 .image-cut .serbar .row .section .sectext{
     margin-left: 0%;
 }
+
+.image-cut .search .toptext{
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.image-cut .search .toptext p{
+    width: 19.5%;
+    color: rgba(100,100,100,0.8);
+    font-weight: 900;
+    text-decoration: none;
+    border-right: 1px solid rgba(100,100,100,1);
+    cursor: pointer;
+
+}
+
+.image-cut .search .toptext p:last-child{
+    border-right: none;
+}
+
+.image-cut .search .toptext p{
+    margin-bottom: 0px;
+}
+
+.image-cut .search .toptext p.chosenblue{
+    color: #556CFF !important;
+}
+
+.image-cut .search .toptext p.chosenwhite{
+    color: white !important;
+}
 /* Service over */
 
 .image-cut .search .row .section select, .image-cut .search .row .section input,.image-cut .search .row .button button{
@@ -1164,6 +1195,10 @@ div.footer div:last-child a{
 
 @media(max-width:450px){
 
+    .image-cut .serbar .row .section .sectext{
+        font-size: 13px !important; 
+    }
+
     .image-cut h1{
         font-size: 25px;
     }
@@ -1189,6 +1224,11 @@ div.footer div:last-child a{
     .image-cut .search .row .section img{
         width: 14%;
         height: 32%;
+    }
+
+    .first_section .container{
+        margin: 0px;
+        padding: 0px;
     }
 
     .first_section .ftext{
@@ -1388,6 +1428,10 @@ div.footer div:last-child a{
         margin-right:  auto;
     }
 
+    .first_section .steps .col-12 p.serp{
+        width: 80% !important;
+    }
+
     .image-cut .serbar .row .button button{
         margin-top: 7.5% !important;
     }
@@ -1404,4 +1448,5 @@ div.footer div:last-child a{
     .first_section .owl-carousel{
         margin-bottom: 10%;
     }
+
 }
